@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoPartes MX - Proyecto Académico</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS personalizado -->
+  <link href="assets/css/estilos.css" rel="stylesheet">
+  <!-- AOS Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Mi Portafolio</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#presentaciones">Presentaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portada del Proyecto -->
+  <header class="header-gradient text-center py-5">
+    <h1 data-aos="fade-down">AutoPartes MX</h1>
+    <p data-aos="fade-up">Landing Page para empresa de refacciones automotrices</p>
+  </header>
+
+  <!-- Descripción -->
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6" data-aos="fade-right">
+        <img src="assets/autopartes/img/logo.png" class="img-fluid rounded shadow" alt="AutoPartes MX Proyecto">
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h2>Descripción</h2>
+        <p>
+          AutoPartes MX es una landing page diseñada para una empresa local especializada en la venta de refacciones y piezas automotrices.
+          El sitio comunica la misión de la empresa, su catálogo, ventajas competitivas y ofrece contacto directo con clientes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologías -->
+  <section class="container my-5">
+    <h2 class="text-center">Tecnologías Utilizadas</h2>
+    <div class="row text-center">
+      <div class="col-md-3" data-aos="zoom-in">
+        <img src="assets/MetaPets/img/html.jpeg" alt="HTML" class="tech-icon">
+        <p>HTML5 para estructura semántica y accesibilidad.</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+        <img src="assets/MetaPets/img/css.png" alt="CSS" class="tech-icon">
+        <p>CSS personalizado para identidad visual y estilos responsivos.</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+        <img src="assets/MetaPets/img/bootstrap.png" alt="Bootstrap" class="tech-icon">
+        <p>Bootstrap para grid, componentes y diseño adaptativo.</p>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+        <img src="assets/MetaPets/img/javascript.png" alt="JavaScript" class="tech-icon">
+        <p>JavaScript para validaciones, eventos y manipulación del DOM.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vistas del Proyecto -->
+  <section class="container my-5">
+    <h2 class="text-center">Vistas del Proyecto</h2>
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="flip-left">
+        <img src="assets/autopartes/img/logo.png" class="img-fluid rounded shadow" alt="Vista Home">
+        <p class="text-center">Página Inicio con encabezado y logotipo</p>
+      </div>
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+        <img src="assets/autopartes/img/catalago1.png" class="img-fluid rounded shadow" alt="Vista Catálogo">
+        <p class="text-center">Catálogo con tabla de productos</p>
+      </div>
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+        <img src="assets/autopartes/img/catalogo2.png" class="img-fluid rounded shadow" alt="Vista Catálogo Cards">
+        <p class="text-center">Catálogo con Cards en grid responsivo</p>
+      </div>
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+        <img src="assets/autopartes/img/contacto.png" class="img-fluid rounded shadow" alt="Vista Contacto">
+        <p class="text-center">Formulario de contacto con validación</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aportaciones -->
+  <section class="container my-5">
+    <h2 class="text-center">Aportaciones</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Jesús Osvaldo Ojeda Ake – Estructura HTML y lógica en JavaScript.</li>
+      <li class="list-group-item">Hidalgo Grajales Hilmar Eduardo – CSS personalizado y pruebas de accesibilidad.</li>
+      <li class="list-group-item">Luis Arturo Espinosa Bello – Integración de Bootstrap, edición de imágenes y pruebas de funcionamiento.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>Contacto: luis.espinosa@universidad.mx | LinkedIn: 
+      <a href="https://linkedin.com" target="_blank" class="text-white"><i class="fab fa-linkedin"></i></a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
