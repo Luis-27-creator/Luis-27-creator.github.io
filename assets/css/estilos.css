@@ -1,25 +1,59 @@
-/* Fondo con gradiente */
-.header-gradient {
-  background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d);
-  color: white;
+body{
+background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+font-family: 'Segoe UI', sans-serif;
 }
 
-/* Tarjetas de proyectos */
-.project-card {
-  background: rgba(0,0,0,0.7);
-  border: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.project-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+/* HEADER */
+.header-gradient{
+background: linear-gradient(90deg,#1f4037,#99f2c8);
+color:white;
 }
 
-/* Íconos de contacto */
-footer i {
-  transition: transform 0.3s ease;
+/* TECNOLOGIAS */
+.tech-icon{
+height:90px;
+object-fit:contain;
+transition:0.3s;
 }
-footer i:hover {
-  transform: scale(1.2);
-  color: #fdbb2d;
+
+.tech-icon:hover{
+transform:scale(1.1);
+}
+
+/* CARRUSEL */
+.carousel{
+max-width:950px;
+margin:auto;
+}
+
+.carousel-item img{
+height:420px;
+object-fit:contain;
+background:#111;
+border-radius:12px;
+}
+
+.carousel-caption{
+background:rgba(0,0,0,0.6);
+border-radius:12px;
+padding:10px;
+}
+
+/* CARD DISEÑO */
+.card-tech{
+background:#1e293b;
+border-radius:15px;
+padding:20px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+}
+
+/* NAVBAR GLASS */
+.navbar{
+backdrop-filter: blur(10px);
+background: rgba(0,0,0,0.7)!important;
+}
+
+/* FOOTER */
+footer{
+border-top:1px solid #444;
 }
